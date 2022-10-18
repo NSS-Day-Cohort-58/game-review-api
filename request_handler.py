@@ -26,12 +26,12 @@ class HandleRequests(BaseHTTPRequestHandler):
         print(self.path)
 
         # It's an if..else statement
-        if self.path == "/animals":
+        if self.path == "/games":
             # In Python, this is a list of dictionaries
             # In JavaScript, you would call it an array of objects
             response = [
-                {"id": 1, "name": "Snickers", "species": "Dog"},
-                {"id": 2, "name": "Lenny", "species": "Cat"}
+                {"id": 1, "name": "Monopoly", "number_of_players": 4, "category_id": 1},
+                {"id": 2, "name": "Spoons", "number_of_players": 6, "category_id": 2}
             ]
 
         else:

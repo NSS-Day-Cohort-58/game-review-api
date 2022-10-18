@@ -30,8 +30,8 @@ class HandleRequests(BaseHTTPRequestHandler):
             # In Python, this is a list of dictionaries
             # In JavaScript, you would call it an array of objects
             response = [
-                {"id": 1, "name": "Monopoly", " number_of_players": 4, "category_id": 1},
-                {"id": 2, "name": "Spoons", " number_of_players": 6, "category_id": 2}
+                {"id": 1, "name": "Monopoly", "number_of_players": 4, "category_id": 1},
+                {"id": 2, "name": "Spoons", "number_of_players": 6, "category_id": 2}
             ]
 
         else:
